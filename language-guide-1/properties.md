@@ -495,7 +495,7 @@ print(someStructure.$someNumber)
 // Prints "true"
 ```
 
-`someStructure.$someNumber` 는 래퍼의 투영된 값에 접근합니다. 4와 같은 작은 숫자를 저장한 후에 `someStructure.$someValue` 의 값은 `false` 입니다. 그러나 55와 같은 큰 숫자를 저장한 후에 투영된 값은 `true` 입니다.
+`someStructure.$someNumber` 는 래퍼의 투영된 값에 접근합니다. 4와 같은 작은 숫자를 저장한 후에 `someStructure.$someNumber` 의 값은 `false` 입니다. 그러나 55와 같은 큰 숫자를 저장한 후에 투영된 값은 `true` 입니다.
 
 프로퍼티 래퍼는 투영된 값으로 어떤 타입의 값도 반환할 수 있습니다. 이 예제에서 프로퍼티 래퍼는 숫자가 변경되었는지에 대한 정보만 노출합니다. 그래서 투영된 값으로 부울 값을 노출합니다. 더 많은 정보의 노출이 필요한 래퍼는 다른 데이터 타입의 인스턴스를 반환하거나 투영된 값으로 래퍼의 인스턴스를 노출하기 위해 `self` 를 반환할 수 있습니다.
 
