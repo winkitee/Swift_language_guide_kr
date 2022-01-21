@@ -469,7 +469,7 @@ print(myDice.textualDescription)
 
 ### 확장과 함께 프로토콜 채택 선언 (Declaring Protocol Adoption with an Extension)
 
-타입이 이미 프로토콜의 모든 요구사항을 준수하지만 해당 프로토콜을 책택한다고 아직 명시하지 않은 경우 빈 확장을 사용하여 프로토콜을 채택하도록 만들 수 있습니다:
+타입이 이미 프로토콜의 모든 요구사항을 준수하지만 해당 프로토콜을 채택한다고 아직 명시하지 않은 경우 빈 확장을 사용하여 프로토콜을 채택하도록 만들 수 있습니다:
 
 ```swift
 struct Hamster {
